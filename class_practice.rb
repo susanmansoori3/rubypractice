@@ -1,42 +1,19 @@
-##Create an Empty class named 'Person'
+class Person
 
-
-
-
-
-
-
+end
 
 
 ##Define three properties on that class 'name','age','birthdate'
 
+class Person
 
+attr_accessor :name :age :birthdate
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+end
 
 
 ##Define 'methods' that allow you to access and set all three of those properties, Do not use attribute accessor
 =begin
-
-
-
-
-
-
 
 
 
@@ -49,10 +26,7 @@
 =begin
 
 
-
-
-
-
+Person.new creates a new person because it calls on the class to set properties to a new instance of that class.
 
 
 =end
@@ -225,7 +199,7 @@ person.say_name_again
 =begin
 
 
-
+It's asking if that method is true or false.
 
 
 
@@ -240,12 +214,7 @@ person.say_name_again
 =begin
 
 
-
-
-
-
-
-
+It allows for exceptions to run on the method which would otherwise not work.
 
 
 =end
@@ -253,6 +222,9 @@ person.say_name_again
 
 
 #What does the * symbol signify when passed as a method parameter?
+
+The splat symbol 
+
 #Where else is it used in the language and for what purpose?
 
 def do_something *param
